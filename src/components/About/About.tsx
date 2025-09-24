@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/VinayakSingh.webp";
+import two from "../../assets/two.jpg";
 import python from "../../assets/python.svg"
 import java from "../../assets/java.svg"
 import wordpress from "../../assets/wordpress.svg";
@@ -23,17 +23,17 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Vinayak, an enthusiastic Software Engineer skilled in web development, machine learning, and scalable software solutions
+            Hi there! I'm Aarif Hussain, an enthusiastic Software Engineer skilled in web development, and scalable software solutions
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            I build responsive web applications, fine-tune ML models, and implement robust backend services.
+            I build responsive web applications, and implement robust backend services.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            I also work with CMS platforms like WordPress and Shopify to streamline content management.
+            I also work with CMS platforms like WordPress streamline content management.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
@@ -115,7 +115,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
-          <img src={VinayakSingh} alt="Vinayak Singh" />
+          <img src={two} alt="Vinayak Singh" />
         </ScrollAnimation>
       </div>
     </Container>
