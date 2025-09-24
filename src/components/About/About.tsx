@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import two from "../../assets/two.jpg";
+import aarif from "../../assets/aarif.jpg";
 import python from "../../assets/python.svg"
 import java from "../../assets/java.svg"
 import wordpress from "../../assets/wordpress.svg";
@@ -115,7 +115,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
-          <img src={two} alt="Vinayak Singh" />
+          <img src={aarif} alt="Aarif" />
         </ScrollAnimation>
       </div>
     </Container>
